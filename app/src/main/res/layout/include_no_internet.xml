@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:fillViewport="true"
+    android:background="@color/grey_dark"
+    android:orientation="horizontal"
+    android:visibility="visible">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/spacing_middle"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/no_internet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+            android:textStyle="bold"
+            android:textColor="@android:color/holo_red_light" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_reloading"
+            android:textAppearance="@style/TextAppearance.AppCompat.Caption"
+            android:textColor="@color/grey_soft" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:padding="@dimen/spacing_small"
+        android:layout_marginRight="@dimen/spacing_small"
+        android:src="@drawable/ic_refresh"
+        android:tint="@color/grey_soft" />
+</LinearLayout>

@@ -1,0 +1,104 @@
+<resources>
+    <string name="app_name">Tycimy</string>
+
+    <string name="city_name">Tiền Giang</string>
+    <string name="city_address">Mỹ Tho Tiền Giang</string>
+
+    <!-- ==================== GOOGLE API KEY STRING ============================================= -->
+    <!--Replace with your own interstitial ad unit id. -->
+    <!-- This is an ad unit ID for a test ad. Replace with your own banner ad unit id. ca-app-pub-3239677920600357/2323890961-->
+    <string name="banner_ad_unit_id">ca-app-pub-3239677920600357/xxxxxx</string>
+    <!-- API KEY FOR MAP -->
+    <string name="api_key">AIzaSyAaxdxWDtSCCPd83oXOj6PXiua57kNcIEg</string>
+
+    <!-- ==================== OTHERS STRING ==================================================== -->
+    <string name="search_toolbar_hint">Tìm địa điểm....</string>
+    <string name="dialog_confirm_title">Xác nhận</string>
+    <string name="dialog_about_title">Thông tin</string>
+    <string name="activity_title_maps">@string/title_nav_all</string>
+    <string name="add_favorite">thêm vào yêu thích</string>
+    <string name="remove_favorite">xóa khỏi yêu thích</string>
+    <string name="fail_dial_number">Không thể gọi số điện thoại này</string>
+    <string name="no_internet">\"Không có kết nối internet\"</string>
+    <string name="tap_to_reloading">\"Ấn thêm lần nữa để tải lại\"</string>
+
+    <string name="dialog_title_permission">Bảng điều khiển phân quyền</string>
+    <string name="dialog_content_permission">
+        Để sử dụng đầy đủ chức năng của ứng dụng bạn cần phải gán tất cả các quyền.
+        \nMở bảng cài đặt phân quyền ?
+    </string>
+    <string name="dialog_content_gps">
+        Chức năng định vị bằng GPS chưa được bật, bạn có muốn bật GPS lên không?
+    </string>
+
+
+    <!-- ==================== Strings related to Splash Screen ================================= -->
+    <string name="splash_welcome_text">TYCIMY</string>
+    <string name="splash_desc_text">Khám phá các địa điểm hấp dẫn chỉ với một ứng dụng</string>
+
+    <!-- ====================  Cấu hình cài đặt ============================================= -->
+    <string name="pref_category_notif">Cài đặt thông báo</string>
+    <string name="pref_category_other">Cài đặt khác</string>
+
+    <string name="pref_title_notif">Nhận tin nhắn Push</string>
+    <string name="pref_title_ringtone">Chuông</string>
+    <string name="pref_title_vibrate">Rung</string>
+    <string name="pref_title_cache">Xóa bộ nhớ tạm</string>
+    <string name="pref_title_theme">Màu chủ đề</string>
+    <string name="pref_ringtone_silent">Im lặng</string>
+
+    <string name="pref_key_notif">key_notifications</string>
+    <string name="pref_key_ringtone">key_ringtone</string>
+    <string name="pref_key_vibrate">key_vibrate</string>
+    <string name="pref_key_reset_cache">key_reset_cache</string>
+    <string name="pref_key_theme">key_theme</string>
+
+    <string name="message_clear_image_cache">Bạn có chắc chắn muốn xóa bộ nhớ đệm hình ảnh không?</string>
+
+    <!-- ==================== Strings related to Drawer Menu =================================== -->
+    <string name="navigation_drawer_open">Mở bảng điều khiển</string>
+    <string name="title_nav_all">Tất cả</string>
+    <string name="title_nav_fav">Yêu thích</string>
+
+    <string name="title_nav_hotels">Khách Sạn</string>
+    <string name="title_nav_ent">Giải trí</string>
+    <string name="title_nav_shop">Mua sắm</string>
+    <string name="title_nav_public">Dịch vụ công cộng</string>
+    <string name="title_nav_money">Ngân hàng - ATM</string>
+
+    <string name="title_fragment_fav">Yêu thích</string>
+
+    <!--exit notification-->
+
+    <string name="lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin  Fusce quis mauris a enim sollicitudin, Fusce quis mauris a enim sollicitudin  Fusce quis Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam efficitur ipsum in placerat molestie.  Fusce quis mauris a enim sollicitudin  Fusce quis mauris a enim sollicitudin, \n \nFusce quis mauris a enim sollicitudin  Fusce quis mauris a enim sollicitudin, Fusce quis mauris a enim sollicitudin  Fusce quis mauris a enim sollicitudinmauris a enim sollicitudin, Fusce quis mauris a enim sollicitudin  Fusce quis mauris a enim sollicitudin  </string>
+    <string name="action_settings">Cài đặt</string>
+    <string name="activity_title_settings">Cài đặt</string>
+    <string name="title_nav_sport">Thể thao</string>
+    <string name="title_nav_tour">Địa điểm du lịch</string>
+    <string name="title_nav_food">Ăn uống</string>
+    <string name="title_dialog_theme">Màu sắc</string>
+    <string name="press_again_exit_app">Ấn thêm lần nữa để thoát</string>
+    <string name="pref_title_rate">Đánh giá</string>
+    <string name="pref_title_about">Thông tin</string>
+    <string name="navigation_drawer_close">Đóng bảng điều khiển</string>
+    <string name="message_after_clear_image_cache">Hình ảnh tạm đã được xóa thành công</string>
+    <string name="no_phone_number">không có số điện thoại</string>
+    <string name="no_website">không có trang thông tin điện tử</string>
+    <string name="about_text">Ứng dụng liệt kê các địa điểm hấp dẫn của tỉnh Tiền Giang</string>
+    <string name="fail_open_website">Không thể truy cập website</string>
+    <string name="interstitial_ad_unit_id">ca-app-pub-9968427806589035</string>
+    <string name="title_nav_transport">Vận tải</string>
+    <string name="title_nav_featured">Địa điểm nổi bật</string>
+    <string name="title_nav_religion">Nhà Thờ - Chùa</string>
+    <string name="description">Thông tin</string>
+    <string name="photos">Hình ảnh</string>
+    <string name="map">Bản đồ</string>
+    <string name="view">XEM</string>
+    <string name="navigate">CHỈ ĐƯỜNG</string>
+    <string name="http_server_a">http://phatduong.esy.es</string>
+    <string name="http_server_b">http://izznews.com</string>
+    <string name="http_webpath">/tycimy/demo/the_city</string>
+    <string name="nav_scanner">Quét mã vạch</string>
+
+
+</resources>
